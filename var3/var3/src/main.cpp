@@ -110,6 +110,6 @@ int main() {
 	outputArrayToFile(arrStart, workAreaEnd, arrEnd);
 
 	delete[] arrStart;
-	
+	std::cout << "Done" << std::endl;
 	return 0;
 }

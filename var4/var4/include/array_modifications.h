@@ -6,8 +6,6 @@
 
 void getValue(int& value, const char* prompt);
 
-void doubleArray(int*& arrStart, int*& workAreaEnd, int*& arrEnd);
-
 void processArray(int task, std::vector<int>& vec);
 
 void task42(std::vector<int>& vec, int newValue);
